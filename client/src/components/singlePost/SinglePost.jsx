@@ -37,7 +37,7 @@ export default function SinglePost() {
                 url: "/posts/" + path,
                 data: { username: post.username }
             });
-            window.location.replace("/");sss
+            window.location.replace("/");
         } catch (err) { }
     };
 
