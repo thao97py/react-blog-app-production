@@ -14,7 +14,7 @@ export default function Settings() {
     const [newUserPic,setNewUserPic] =useState(null);
     
     const [successUpdated,setSuccessUpdated]=useState(false);
-    const publicFolder ="http://localhost:5000/images/";
+    const publicFolder = "https://react-blog-app-99.herokuapp.com/images/";
     // console.log("pw outside: " + userPassword);
     const handleSubmit= async (e)=>{
         e.preventDefault();

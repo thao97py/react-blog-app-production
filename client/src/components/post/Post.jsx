@@ -2,7 +2,7 @@ import "./post.css"
 import { Link } from "react-router-dom"
 
 export default function Post({ post }) {
-    const imageFolderURL = "http://localhost:5000/images/";
+    const imageFolderURL = "https://react-blog-app-99.herokuapp.com/images/";
     return (
         <div className="post">
             <hr />

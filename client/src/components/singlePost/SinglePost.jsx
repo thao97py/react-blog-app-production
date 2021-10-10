@@ -11,7 +11,7 @@ export default function SinglePost() {
     const path = location.pathname.split("/")[2];
     //split("/")[2] to get search properties
     const [post, setPost] = useState({});
-    const imageFolderURL = "http://localhost:5000/images/";
+    const imageFolderURL = "https://react-blog-app-99.herokuapp.com/images/";
     const { user } = useContext(Context);
     const [updatedTitle, setUpdatedTitle] = useState("");
     const [updatedDesc, setUpdatedDesc] = useState("");
