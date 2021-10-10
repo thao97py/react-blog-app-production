@@ -2,6 +2,7 @@ import "./settings.css"
 import Sidebar from "../../components/sidebar/Sidebar"
 import { useContext,useState } from "react"
 import { axiosInstance } from "../../config"
+import { Context } from "../../context/Context";
 
 export default function Settings() {
     const {user,dispatch}=useContext(Context);
