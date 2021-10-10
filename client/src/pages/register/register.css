@@ -1,0 +1,64 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(211, 203, 203, 0.5),rgba(255,255,255,0.5)), url(../../images/desk.jpg);
+    background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm>label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border:none;
+}
+.registerButton{
+    margin-top: 20px;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: 2px solid teal;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+.registerButton:hover{
+    color: teal;
+    background-color: white;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border:  2px solid lightcoral;
+    padding: 8px;
+    color:white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.registerError{
+    color: red;
+    font-weight: 300;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+}
+.registerLoginButton:hover{
+    color: lightcoral;
+    background-color: white;
+}

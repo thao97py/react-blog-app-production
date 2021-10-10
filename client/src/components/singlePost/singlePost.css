@@ -1,0 +1,105 @@
+.singlePost{
+    flex:9;
+}
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.singlePostWrapper{
+    padding: 20px 15%; /*---------------*/
+    display: flex;
+    flex-direction: column;
+}
+.singlePostTitle{
+    text-align: center;
+    margin:10px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+.singlePostTitleInput{
+    text-align: center;
+    margin:10px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.singlePostTitleInput:focus{
+    outline: none;
+}
+.singlePostEdit{
+    float:right;
+    font-size: 16px;
+}
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.singlePostIcon:first-child{
+    color:teal;
+}
+.singlePostIcon:last-child{
+    color:tomato;
+}
+.singlePostIcon:hover{
+    transform: scale(1.1);
+}
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color:#e0a014;
+    font-family: 'Varela Round', sans-serif;
+}
+.singlePostAuthor .link:hover{
+    text-decoration: underline;
+    color: rgb(168, 77, 25);
+}
+.singlePostDesc{
+    color:#666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.singlePostDescInput{
+    border:none;
+    color:#666;
+    font-size: 18px;
+    line-height: 25px;
+    min-height: 600px;
+}
+.singlePostDescInput:focus{
+    outline: none;
+}
+.singlePostButtons{
+    display: flex;
+    justify-content: right;
+}
+.singlePostButton{
+    margin-left: 1%;
+    color:white ;
+    cursor: pointer;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.singlePostButtons .Update{
+    background-color: rgb(62, 145, 62);
+}
+.singlePostButtons .Cancel{
+    background-color: orange;
+}
+.singlePostButton:hover{
+    background-image: linear-gradient(rgba(49, 48, 48, 0.4) 0 0);
+}

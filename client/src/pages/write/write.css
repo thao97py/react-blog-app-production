@@ -1,0 +1,137 @@
+.write{
+    padding-top: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+.writeHeader{
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 1.5%;
+    color: lightcoral
+}
+.writeHeader i{
+    margin: 0 10px 20px;
+}
+.writeContainer{
+    display: flex;
+    margin-bottom: 5%;
+    margin-right: 3%;
+}
+.writeImg{
+    width: 60vw;
+    justify-content: center;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.writeform{
+    position: relative;
+}
+.writeFormNewPost{
+    flex:9;
+    margin-right: 3%;
+    background-color: rgb(249 242 242);;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    border:1px solid blanchedalmond;
+}
+
+.writeFormGroup i{
+    color: tomato;
+}
+.writeFormGroup .fas{
+    font-size: 20px;
+}
+.writeFormPrePosts{
+    flex:2;
+    margin-left: 0%;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: rgb(56, 53, 53);
+    font-family: 'Varela Round', sans-serif;
+
+}
+.writeFormPrePosts i{
+    margin-right: 18px;
+}
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: rgb(56, 53, 53);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.writeInput{
+    font-size: 30px;
+    border:none;
+    margin: 10px 20px;
+    width:90%;
+    border-radius:10px ;
+    padding-left: 10px;
+}
+.writeInput:focus{
+    outline: none;
+}
+.writeText{
+    font-size: 20px;
+    min-height: 650px;
+}
+.writeFormCats{
+    margin-top: 20px;
+    align-items:center;
+    color: rgb(56, 53, 53);
+    font-family: 'Varela Round', sans-serif;
+    width: 600px;
+}
+.writeFormCats i{
+    margin-right: 20px ;
+}
+.writeFormSelect{
+    margin-left: 40px ;
+}
+.writeFormStory{
+    display: flex;
+}
+.writeFormStory .secondFeather{
+    margin-top: 15px;
+}
+.writeFormStory .writeInput{
+    padding-top: 0%;
+}
+.writeButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.writeSubmit{
+    right: 20px;
+    background-color: lightcoral;
+    padding:8px 10px;
+    border-radius: 10px;
+    border:2px solid lightcoral;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    
+}
+.writeSubmit:hover{
+    background-color: #fff;
+    color: lightcoral;
+}
+.writeFormUpload{
+    display: flex;
+    justify-content:left;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(56, 53, 53);
+    align-items: center;
+}

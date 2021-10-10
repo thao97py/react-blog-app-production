@@ -1,0 +1,51 @@
+.about{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding: 30px 10%;
+    margin:0;
+    min-height: 900px;
+}
+.aboutTitle{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Varela Round', sans-serif;
+    color: lightcoral;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.aboutInfo{
+    padding:0 60px;
+    font-family: 'Varela', sans-serif;
+    line-height: 25px;
+}
+.aboutImg{
+    height:auto;
+    width:80%;
+    padding: 0 5% ;
+    align-items: center;
+    border:2px solid #fff;
+    box-shadow: 0px 5px 20px #ccc;
+    margin-bottom: 30PX;
+}
+.aboutDesc{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.aboutDesc .link{
+    color: tomato;
+    cursor: pointer;
+}
+.aboutInfo .link:hover{
+    text-shadow: 1px 1px 2px rgb(241, 196, 204);
+}
+.aboutDesc::first-letter{
+    color: rgb(97, 95, 95);
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
