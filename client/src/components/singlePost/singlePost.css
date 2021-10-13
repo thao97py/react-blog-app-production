@@ -9,7 +9,7 @@
     margin-bottom: 10px;
 }
 .singlePostWrapper{
-    padding: 20px 15%; /*---------------*/
+    padding: 20px 15% 90px; /*---------------*/
     display: flex;
     flex-direction: column;
 }
