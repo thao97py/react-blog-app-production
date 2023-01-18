@@ -19,7 +19,7 @@
   "main": "index.js",
   "engines": {
     "node": "6.11.1"
-  }
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
